@@ -1,0 +1,12 @@
+2026-05-11 22:55:43,500 INFO [*] Escaneando 127.0.0.1 — 1024 puertos, rate=200, timeout=0.5s
+2026-05-11 22:55:43,631 INFO [+] Puertos abiertos en 127.0.0.1: [] (0.13s)
+2026-05-11 22:55:43,631 INFO [*] Corriendo nmap -sV en 127.0.0.1...
+2026-05-11 22:55:43,999 INFO [+] nmap completado → scan.xml
+2026-05-11 22:55:44,000 INFO [+] 0 hosts encontrados
+2026-05-11 22:55:44,000 INFO [*] Analizando auth.log...
+2026-05-11 22:55:44,001 INFO [+] IPs sospechosas: 3
+2026-05-11 22:55:44,001 INFO [*] Analizando access.log...
+2026-05-11 22:55:44,019 INFO [+] Requests sospechosas: 95
+2026-05-11 22:55:44,019 INFO [+] Anomalías: 1
+2026-05-11 22:55:44,020 INFO [+] Resultados guardados en results.json
+2026-05-11 22:55:44,021 INFO [+] Reporte guardado en report.md

@@ -1,0 +1,532 @@
+{
+  "port_scan": {
+    "target": "127.0.0.1",
+    "timestamp": "2026-05-11T22:55:43.499971",
+    "elapsed": 0.13,
+    "open_ports": []
+  },
+  "hosts": [],
+  "brute_force": [
+    [
+      "185.220.101.5",
+      258
+    ],
+    [
+      "45.33.32.156",
+      214
+    ],
+    [
+      "10.0.0.2",
+      12
+    ]
+  ],
+  "web": {
+    "top_ips": [
+      [
+        "10.0.0.1",
+        1765
+      ],
+      [
+        "66.249.66.1",
+        625
+      ],
+      [
+        "45.33.32.156",
+        317
+      ],
+      [
+        "185.220.101.5",
+        291
+      ],
+      [
+        "192.168.1.50",
+        183
+      ]
+    ],
+    "status_distribution": {
+      "200": 3099,
+      "403": 33,
+      "500": 49
+    },
+    "suspicious_requests": [
+      {
+        "ip": "66.249.66.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "200"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "403"
+      },
+      {
+        "ip": "192.168.1.50",
+        "path": "/admin/../../../etc/passwd",
+        "status": "200"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "403"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "200"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "200"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/admin/../../../etc/passwd",
+        "status": "403"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/admin/../../../etc/passwd",
+        "status": "500"
+      },
+      {
+        "ip": "45.33.32.156",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "200"
+      },
+      {
+        "ip": "45.33.32.156",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "500"
+      },
+      {
+        "ip": "185.220.101.5",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "500"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/admin/../../../etc/passwd",
+        "status": "200"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/admin/../../../etc/passwd",
+        "status": "500"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "500"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "200"
+      },
+      {
+        "ip": "185.220.101.5",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "403"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/admin/../../../etc/passwd",
+        "status": "403"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "403"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "500"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "403"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/admin/../../../etc/passwd",
+        "status": "200"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "500"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "200"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/admin/../../../etc/passwd",
+        "status": "500"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/admin/../../../etc/passwd",
+        "status": "403"
+      },
+      {
+        "ip": "45.33.32.156",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "200"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/admin/../../../etc/passwd",
+        "status": "200"
+      },
+      {
+        "ip": "192.168.1.50",
+        "path": "/admin/../../../etc/passwd",
+        "status": "403"
+      },
+      {
+        "ip": "192.168.1.50",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "500"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "500"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/admin/../../../etc/passwd",
+        "status": "200"
+      },
+      {
+        "ip": "185.220.101.5",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "403"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "200"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/admin/../../../etc/passwd",
+        "status": "403"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "200"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "500"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "200"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "500"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "403"
+      },
+      {
+        "ip": "185.220.101.5",
+        "path": "/admin/../../../etc/passwd",
+        "status": "200"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/admin/../../../etc/passwd",
+        "status": "200"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "500"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "200"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "200"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "500"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "500"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "500"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "200"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "500"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/admin/../../../etc/passwd",
+        "status": "500"
+      },
+      {
+        "ip": "45.33.32.156",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "200"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "200"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/admin/../../../etc/passwd",
+        "status": "403"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/admin/../../../etc/passwd",
+        "status": "403"
+      },
+      {
+        "ip": "185.220.101.5",
+        "path": "/admin/../../../etc/passwd",
+        "status": "403"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "500"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "500"
+      },
+      {
+        "ip": "45.33.32.156",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "200"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "500"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "403"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/admin/../../../etc/passwd",
+        "status": "500"
+      },
+      {
+        "ip": "45.33.32.156",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "500"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "200"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "403"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "500"
+      },
+      {
+        "ip": "185.220.101.5",
+        "path": "/admin/../../../etc/passwd",
+        "status": "403"
+      },
+      {
+        "ip": "45.33.32.156",
+        "path": "/admin/../../../etc/passwd",
+        "status": "500"
+      },
+      {
+        "ip": "192.168.1.50",
+        "path": "/admin/../../../etc/passwd",
+        "status": "403"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "200"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "500"
+      },
+      {
+        "ip": "45.33.32.156",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "200"
+      },
+      {
+        "ip": "45.33.32.156",
+        "path": "/admin/../../../etc/passwd",
+        "status": "500"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "500"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "200"
+      },
+      {
+        "ip": "185.220.101.5",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "500"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "500"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/admin/../../../etc/passwd",
+        "status": "403"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/admin/../../../etc/passwd",
+        "status": "200"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/admin/../../../etc/passwd",
+        "status": "200"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "500"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "500"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "500"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "403"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/cgi-bin/test.cgi?cmd=id",
+        "status": "500"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "200"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "403"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/admin/../../../etc/passwd",
+        "status": "500"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "500"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "500"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "403"
+      },
+      {
+        "ip": "10.0.0.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "500"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "403"
+      },
+      {
+        "ip": "185.220.101.5",
+        "path": "/search?q=<script>alert(1)</script>",
+        "status": "500"
+      },
+      {
+        "ip": "66.249.66.1",
+        "path": "/admin/../../../etc/passwd",
+        "status": "200"
+      },
+      {
+        "ip": "45.33.32.156",
+        "path": "/admin/../../../etc/passwd",
+        "status": "403"
+      }
+    ]
+  },
+  "anomalies": [
+    "[ANOMALY] 11/May/2026-03 \u2014 950 requests (z=4.7\u03c3, threshold=3.0\u03c3)"
+  ]
+}

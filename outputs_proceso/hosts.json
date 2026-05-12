@@ -1,0 +1,13 @@
+[
+  {
+    "ip": "192.168.182.2",
+    "hostname": "192.168.182.2",
+    "open_ports": [
+      {
+        "port": 53,
+        "service": "domain",
+        "version": ""
+      }
+    ]
+  }
+]
